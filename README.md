@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+Một trang web portfolio hiện đại được xây dựng với Next.js, TypeScript và Tailwind CSS.
 
-First, run the development server:
+## 🚀 Tính năng
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Responsive Design**: Tối ưu cho mọi kích thước màn hình
+- **Modern UI/UX**: Giao diện hiện đại với gradient và animation
+- **Smooth Scrolling**: Điều hướng mượt mà giữa các section
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first CSS framework
+- **Interactive Components**:
+  - Typewriter effect cho hero section
+  - Animated counters cho thống kê
+  - Mobile menu responsive
+  - Loading animation
+
+## 📂 Cấu trúc dự án
+
+```
+src/
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+└── components/
+    ├── AnimatedCounter.tsx
+    ├── MobileMenu.tsx
+    ├── PageLoader.tsx
+    └── TypewriterEffect.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Công nghệ sử dụng
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15**: React framework
+- **TypeScript**: Type safety
+- **Tailwind CSS**: Styling
+- **React Hooks**: State management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Sections bao gồm
 
-## Learn More
+1. **Hero Section**: Giới thiệu bản thân với typewriter effect
+2. **Stats Section**: Hiển thị thống kê với animated counters
+3. **About Section**: Thông tin chi tiết về bản thân
+4. **Skills Section**: Kỹ năng với progress bars
+5. **Projects Section**: Showcase các dự án đã làm
+6. **Contact Section**: Form liên hệ và thông tin
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Thay đổi thông tin cá nhân:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Tên và thông tin cá nhân**: Chỉnh sửa trong file `src/app/page.tsx`
+2. **Skills**: Cập nhật array `skills` với tỷ lệ phần trăm
+3. **Projects**: Thêm/sửa thông tin dự án trong array `projects`
+4. **Stats**: Điều chỉnh số liệu thống kê trong array `stats`
 
-## Deploy on Vercel
+### Thay đổi màu sắc:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Chỉnh sửa trong file `src/app/globals.css` hoặc sử dụng Tailwind classes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Chạy dự án
+
+```bash
+# Cài đặt dependencies
+npm install
+
+# Chạy development server
+npm run dev
+
+# Build cho production
+npm run build
+
+# Chạy production build
+npm start
+```
+
+Mở [http://localhost:3000](http://localhost:3000) để xem kết quả.
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
+
+## 🎨 Color Scheme
+
+- **Primary**: Purple (#7c3aed)
+- **Secondary**: Pink (#ec4899)
+- **Background**: Dark slate (#0f172a)
+- **Text**: White/Gray variants
+
+## 📝 License
+
+MIT License - Bạn có thể sử dụng tự do cho dự án cá nhân hoặc thương mại.
+
+## 👨‍💻 Author
+
+**Tran Hoang Phuc**
+
+- GitHub: [@tranhoangphuc3101](https://github.com/tranhoangphuc3101)
+- Email: tranhoangphuc3101@gmail.com
