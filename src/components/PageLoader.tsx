@@ -34,7 +34,7 @@ export default function PageLoader() {
         <div className="w-64 h-2 bg-slate-800 rounded-full mx-auto mb-4">
           <div
             className="h-full bg-gradient-to-r from-purple-600 to-pink-600 rounded-full transition-all duration-300"
-            style={{ width: \`\${progress}%\` }}
+            style={{ width: `${progress}%` }}
           ></div>
         </div>
         <p className="text-gray-400">Loading Portfolio...</p>
