@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio - Tran Hoang Phuc",
-  description: "Fullstack Developer Portfolio - Showcasing my projects and skills",
+  title: "Pham Ngo Minh Dat | Full-Stack & Mobile Developer",
+  description:
+    "Portfolio of Pham Ngo Minh Dat — Full-Stack, React, Next.js, React Native, and Flutter developer based in Ho Chi Minh City, Vietnam.",
 };
 
 export default function RootLayout({
@@ -24,9 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={\`\${geistSans.variable} \${geistMono.variable} antialiased\`}>
         {children}
       </body>
     </html>

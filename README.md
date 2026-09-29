@@ -1,23 +1,55 @@
-# Portfolio Website
+# Pham Ngo Minh Dat — Portfolio Website
 
-Một trang web portfolio hiện đại được xây dựng với Next.js, TypeScript và Tailwind CSS.
+A modern developer portfolio built with Next.js, TypeScript, React, and Tailwind CSS.
 
-## 🚀 Tính năng
+The website presents my professional experience, technical skills, selected GitHub projects, education, and contact information in English for job applications and technical recruitment.
 
-- **Responsive Design**: Tối ưu cho mọi kích thước màn hình
-- **Modern UI/UX**: Giao diện hiện đại với gradient và animation
-- **Smooth Scrolling**: Điều hướng mượt mà giữa các section
-- **TypeScript**: Type-safe development
-- **Tailwind CSS**: Utility-first CSS framework
-- **Interactive Components**:
-  - Typewriter effect cho hero section
-  - Animated counters cho thống kê
-  - Mobile menu responsive
-  - Loading animation
+## Features
 
-## 📂 Cấu trúc dự án
+- Responsive layout for desktop, tablet, and mobile
+- Modern dark UI with gradients and subtle animation
+- Smooth section navigation
+- Typewriter hero animation
+- Animated statistics
+- Mobile navigation menu
+- Loading animation
+- Professional experience section
+- Technology-focused skills section
+- Featured projects linked directly to GitHub
+- Recruitment-focused contact section
 
-```
+## Sections
+
+1. **Home** — Professional introduction and role focus
+2. **About** — Background and education
+3. **Skills** — Frontend, mobile, backend, data, and integration technologies
+4. **Experience** — Professional development experience
+5. **Projects** — Selected real projects from my GitHub profile
+6. **Contact** — Email, phone, location, and GitHub
+
+## Featured Projects
+
+- Project Zomboid Server & Mod Manager
+- AppXemPhim — React Native Movie App
+- Photo Sharing App
+- Weather App Flutter
+- TheMode Frontend
+- Korean Restaurant Web Game
+
+More projects are available at:
+https://github.com/mynh19122003
+
+## Tech Stack
+
+- **Framework:** Next.js 15
+- **Language:** TypeScript
+- **UI:** React 19
+- **Styling:** Tailwind CSS 4
+- **Deployment:** Vercel-compatible
+
+## Project Structure
+
+\`\`\`text
 src/
 ├── app/
 │   ├── favicon.ico
@@ -29,75 +61,32 @@ src/
     ├── MobileMenu.tsx
     ├── PageLoader.tsx
     └── TypewriterEffect.tsx
-```
+\`\`\`
 
-## 🛠️ Công nghệ sử dụng
+## Running Locally
 
-- **Next.js 15**: React framework
-- **TypeScript**: Type safety
-- **Tailwind CSS**: Styling
-- **React Hooks**: State management
-
-## 🎨 Sections bao gồm
-
-1. **Hero Section**: Giới thiệu bản thân với typewriter effect
-2. **Stats Section**: Hiển thị thống kê với animated counters
-3. **About Section**: Thông tin chi tiết về bản thân
-4. **Skills Section**: Kỹ năng với progress bars
-5. **Projects Section**: Showcase các dự án đã làm
-6. **Contact Section**: Form liên hệ và thông tin
-
-## 🎯 Customization
-
-### Thay đổi thông tin cá nhân:
-
-1. **Tên và thông tin cá nhân**: Chỉnh sửa trong file `src/app/page.tsx`
-2. **Skills**: Cập nhật array `skills` với tỷ lệ phần trăm
-3. **Projects**: Thêm/sửa thông tin dự án trong array `projects`
-4. **Stats**: Điều chỉnh số liệu thống kê trong array `stats`
-
-### Thay đổi màu sắc:
-
-Chỉnh sửa trong file `src/app/globals.css` hoặc sử dụng Tailwind classes.
-
-## 🚀 Chạy dự án
-
-```bash
-# Cài đặt dependencies
+\`\`\`bash
 npm install
-
-# Chạy development server
 npm run dev
+\`\`\`
 
-# Build cho production
+Open http://localhost:3000 in your browser.
+
+For a production build:
+
+\`\`\`bash
 npm run build
-
-# Chạy production build
 npm start
-```
+\`\`\`
 
-Mở [http://localhost:3000](http://localhost:3000) để xem kết quả.
+## Personal Information
 
-## 📱 Responsive Breakpoints
+**Pham Ngo Minh Dat**
 
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
+- Location: Ho Chi Minh City, Vietnam
+- Email: phamngominhdat1@gmail.com
+- GitHub: https://github.com/mynh19122003
 
-## 🎨 Color Scheme
+## License
 
-- **Primary**: Purple (#7c3aed)
-- **Secondary**: Pink (#ec4899)
-- **Background**: Dark slate (#0f172a)
-- **Text**: White/Gray variants
-
-## 📝 License
-
-MIT License - Bạn có thể sử dụng tự do cho dự án cá nhân hoặc thương mại.
-
-## 👨‍💻 Author
-
-**Tran Hoang Phuc**
-
-- GitHub: [@tranhoangphuc3101](https://github.com/tranhoangphuc3101)
-- Email: tranhoangphuc3101@gmail.com
+This project is intended as a personal portfolio. Source code may be adapted for personal or commercial use where appropriate.
