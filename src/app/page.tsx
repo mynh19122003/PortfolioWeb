@@ -127,11 +127,11 @@ export default function Home() {
                   <button
                     key={section}
                     onClick={() => scrollToSection(section)}
-                    className={\`capitalize transition-colors \${
+                    className={`capitalize transition-colors ${
                       activeSection === section
                         ? "text-purple-400"
                         : "text-gray-300 hover:text-white"
-                    }\`}
+                    }`}
                   >
                     {section}
                   </button>
